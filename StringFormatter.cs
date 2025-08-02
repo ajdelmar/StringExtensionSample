@@ -1,4 +1,4 @@
-﻿
+
 using System.Text;
 
 namespace StringExtensions
@@ -51,6 +51,5 @@ namespace StringExtensions
 
             return sb.ToString();
         }
-    }
     }
 }
