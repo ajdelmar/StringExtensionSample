@@ -22,8 +22,8 @@ namespace StringExtensions
         /// </summary>
         /// <param name="items">The list of strings</param>
         /// <param name="quote">Optional: This will wrap each item with the value</param>
-        /// <returns></returns>
-        public static string ToCommaSeparatedList(this string[] items, string? quote = null)
+        /// <returns>A comma separated string</returns>
+        public static string ToCommaSeparatedString(this string[] items, string? quote = null)
         {
             if (items == null || items.Length == 0)
             {
@@ -53,3 +53,4 @@ namespace StringExtensions
         }
     }
 }
+
